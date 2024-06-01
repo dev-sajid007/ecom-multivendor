@@ -30,11 +30,11 @@
                                     </div>
                                     <div class="form-group col-md-6 col-12">
                                         <label>Name</label>
-                                        <input type="text" name="name" class="form-control" value="{{Auth::user()->name}}" required="">
+                                        <input type="text" name="name" class="form-control" value="{{Auth::user()->name}}">
                                     </div>
                                     <div class="form-group col-md-6 col-12">
                                         <label>Email</label>
-                                        <input type="text" name="email" class="form-control" value="{{Auth::user()->email}}" required="">
+                                        <input type="text" name="email" class="form-control" value="{{Auth::user()->email}}">
                                     </div>
                                 </div>
                             </div>
